@@ -1,0 +1,22 @@
+{
+  "name": "LogIt",
+  "version": "0.1.0",
+  "summary": "A short description of LogIt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jfmetcalf5/LogIt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jfmetcalf5": "Jfmetcalf5@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jfmetcalf5/LogIt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LogIt/Classes/**/*"
+}

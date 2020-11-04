@@ -1,0 +1,6 @@
+framework module LogIt {
+  umbrella header "LogIt-umbrella.h"
+
+  export *
+  module * { export * }
+}

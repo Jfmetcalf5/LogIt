@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5567FD7EBFC5EE515D52A248 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5567FD7EBFC5EE515D52A248 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LogIt_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogIt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		662C8790CA6921E445AFCE3D /* Pods-LogIt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogIt_Example.debug.xcconfig"; path = "Target Support Files/Pods-LogIt_Example/Pods-LogIt_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A68E23FD9660106BE127DF66 /* Pods-LogIt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogIt_Example.release.xcconfig"; path = "Target Support Files/Pods-LogIt_Example/Pods-LogIt_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BF34DDDEE2B46B8EFA64E9FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF34DDDEE2B46B8EFA64E9FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C7730130BAA1DF6351868D50 /* Pods_LogIt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogIt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FBCA439AD96D3D55C4118E /* Pods-LogIt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogIt_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LogIt_Tests/Pods-LogIt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF7426A23148C86C8F2D15A /* Pods-LogIt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogIt_Tests.release.xcconfig"; path = "Target Support Files/Pods-LogIt_Tests/Pods-LogIt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB864F6DCAC6C6AD1576B0D5 /* LogIt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LogIt.podspec; path = ../LogIt.podspec; sourceTree = "<group>"; };
+		EB864F6DCAC6C6AD1576B0D5 /* LogIt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LogIt.podspec; path = ../LogIt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FBF40CEAF1F4DE148C7ABC9D /* Pods_LogIt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogIt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				C9FBCA439AD96D3D55C4118E /* Pods-LogIt_Tests.debug.xcconfig */,
 				CAF7426A23148C86C8F2D15A /* Pods-LogIt_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - LogIt (0.1.0)
+
+DEPENDENCIES:
+  - LogIt (from `../`)
+
+EXTERNAL SOURCES:
+  LogIt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LogIt: 7f7a88f37da36f26a9bbeab5bae0af04f6c15ce5
+
+PODFILE CHECKSUM: 4759ef0f073af60b06007504b034a7a51fdc1aed
+
+COCOAPODS: 1.9.3
